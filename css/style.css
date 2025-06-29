@@ -215,13 +215,26 @@ header i {
   justify-content: center;
   gap: 30px;
 }
-.left-about {
-  position: relative;
+
+.right-about {
+  font-weight: bold;
+  margin-top: 70px;
 }
 
-.left-about h1 {
-  font-size: 55px;
-  font-weight: bold;
-  position: absolute;
-  top: 20px;
+.right-about .more {
+    padding: 7px 12px;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.right-about p {
+    font-weight: normal !important;
+}
+
+.right-about .more:hover {
+    color: white;
+    background-color: var(--green);
+    border: 2px solid var(--green);
 }
