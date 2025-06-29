@@ -97,7 +97,13 @@
   <section id="video">
     <!-- video -->
     <div class="video">
-      <video src="./video/video.mp4" autoplay loop muted></video>
+      <video id="myVideo" src="./video/video.mp4" loop muted>Brauzeringiz videoni qollab quvvatlamaydi</video>
+
+      <div class="overlay" id="overlay">
+        <button class="play-button" onclick="playVideo()">▶</button>
+        <div class="play-text">Video boshlash uchun uni ustiga bosing </div>
+      </div>
+
     </div>
 
     <!-- video osti -->

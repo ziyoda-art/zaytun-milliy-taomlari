@@ -102,11 +102,19 @@ header i {
 }
 
 .button-nav button {
+<<<<<<< Updated upstream
   padding: 8px 20px;
   border: 1px solid var(--last-color);
   border-radius: 10px;
   color: var(--green);
   background-color: white;
+=======
+    padding: 8px 20px;
+    border: 1px solid var(--last-color);
+    border-radius: 10px;
+    color: white;
+    background-color: transparent;
+>>>>>>> Stashed changes
 }
 
 .button-nav button:hover {
@@ -174,11 +182,55 @@ header i {
 
 /* video */
 .video {
+<<<<<<< Updated upstream
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px 20px;
+=======
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+>>>>>>> Stashed changes
+}
+.video-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+video {
+    width: 70%;
+    height: auto;
+    display: block;
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.play-button {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+.play-text {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #222223;
+    font-weight: bold;
 }
 
 /* video osti */
