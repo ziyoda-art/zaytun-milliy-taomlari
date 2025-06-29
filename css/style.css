@@ -16,6 +16,15 @@
     --green: #5c8929;
 }
 
+body {
+    background-color: var(--green);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
 /* navbar */
 
 header {
@@ -100,11 +109,13 @@ header i {
     padding: 8px 20px;
     border: 1px solid var(--last-color);
     border-radius: 10px;
-    color: white;
+    color: var(--green);
+    background-color: var(--yellow);
 }
 
 .button-nav button:hover {
     background-color: var(--last-color);
+    color: white;
 }
 
 /* home */
@@ -199,8 +210,19 @@ header i {
 }
 
 .container-about {
-    margin: 30px 70px;
+    margin: 30px 50px;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: center;
+    gap: 30px;
+}
+.left-about {
+    position: relative;
+}
+
+.left-about h1{
+    font-size: 55px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
 }
