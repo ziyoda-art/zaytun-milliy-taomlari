@@ -65,6 +65,42 @@
         width: 120px;
         height: 80px;
     }
+    .img-logo{
+      width: 50%;
+      height: 200px;
+    }
+    .left-about-img {
+      width: 300px;
+      height: 250px;
+    }
+    .left-about-card{
+      padding: 20px;
+      width: 230px;
+      height: 180px;
+    }
+    .p-group a {
+      font-size: 12px;
+    }
+    .left-about-card h2{
+      font-size: 15px;
+    }
+    .container-home{
+      background-color: var(--last-color);
+    }
+    .left-about-card h2{
+      margin-top: 0;
+      font-size: 15px;
+    }
+    .bgc-img{
+      display: none;
+    }
+    .btn-group-home{
+      left: 0;
+      top: 50%;
+    }
+    .container-about{
+      display: block;
+    }
   }
   
 
