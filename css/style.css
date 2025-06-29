@@ -280,9 +280,6 @@ header i {
     z-index: 0;
     position: relative;
 }
-<<<<<<< Updated upstream
-=======
-
 .left-about h1 {
     font-size: 55px;
     font-weight: bold;
@@ -293,10 +290,11 @@ header i {
 /* customers */
 
 #customers {
-    margin: 50px 0;
+    margin: 140px 0;
 }
 
 .customers-h1 {
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -334,4 +332,82 @@ header i {
 
 .customer-info{
     margin-left: 10px;
+}
+
+/* footer */
+
+.footer {
+    background-color: #4a4a4a;
+    color: #ffffff;
+    padding: 50px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-family: Arial, sans-serif;
+}
+.footer-section {
+    margin: 0 20px;
+    flex: 1 1 200px;
+}
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+.footer-section ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.social-icons img {
+    width: 30px;
+    margin-right: 10px;
+}
+.instagram-gallery img {
+    width: 140px;
+    height: 100px;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 10px;
+}
+.copyright {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #3a3a3a;
+    color: #ccc;
+    font-size: 12px;
+    width: 100%;
+}
+.social-icons {
+    background-color: #4a4a4a;
+    padding: 10px 0;
+    display: flex;
+}
+.social-icons a {
+    text-decoration: none;
+}
+.social-icons i {
+    color: #ffffff;
+    background-color: var(--last-color);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 18px;
+}
+footer h3{
+    color: var(--last-color);
+    font-weight: bold;
+}
+.footer-section a:hover{
+    text-decoration: underline;
 }
