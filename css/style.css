@@ -1,212 +1,209 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  transition: 0.3s;
-  scrollbar-width: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+    scrollbar-width: none;
 }
 
 :root {
-  --primary-color: #606e21;
-  --secondary-color: #222223;
-  --last-color: #8aa32f;
-  --gold: #edc883;
-  --fill-color: #fddfa2;
-  --yellow: #e5be74;
-  --green: #697a24;
+    --primary-color: #606e21;
+    --secondary-color: #222223;
+    --last-color: #8aa32f;
+    --gold: #edc883;
+    --fill-color: #fddfa2;
+    --yellow: #e5be74;
+    --green: #697a24;
 }
 
 /* navbar */
 
 header {
-  display: flex;
-  justify-content: space-around;
-  background-color: var(--yellow);
-  padding: 10px 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--yellow);
+    padding: 10px 15px;
 }
 
 header a {
-  color: white !important;
-  text-decoration: none;
+    color: white !important;
+    text-decoration: none;
 }
 
 header i {
-  color: var(--text-color);
+    color: var(--text-color);
 }
 
 /* Navbar */
 .navbar {
-  background-color: var(--green);
-  padding: 0.5rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  z-index: 999;
-  top: 0px;
-  transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: var(--green);
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 999;
+    top: 0px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navbar .nav-link {
-  color: var(--navbar-text-color);
-  transition: color 0.3s ease;
+    color: var(--navbar-text-color);
+    transition: color 0.3s ease;
 }
 
 .navbar.scrolled .navbar-brand-span {
-  color: var(--navbar-scrolled-text);
+    color: var(--navbar-scrolled-text);
 }
 
 .navbar.scrolled .nav-link {
-  color: var(--navbar-scrolled-text);
+    color: var(--navbar-scrolled-text);
 }
 
 .navbar.scrolled .nav-link:hover {
-  color: var(--navbar-link-hover);
+    color: var(--navbar-link-hover);
 }
 
 .logo img {
-  color: #ffffff;
-  /* width: 170px; */
-  height: 70px;
-  font-weight: bold;
-  /* margin-left: 35px; */
-  cursor: pointer;
-  margin-top: 5px;
-  margin-bottom: -7px;
+    color: #ffffff;
+    /* width: 170px; */
+    height: 70px;
+    font-weight: bold;
+    /* margin-left: 35px; */
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: -7px;
 }
 
 .nav-links a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .nav-links a:hover {
-  color: var(--last-color) !important;
+    color: var(--last-color) !important;
 }
 
 .nav-links a.active {
-  color: var(--last-color) !important;
+    color: var(--last-color) !important;
 }
 
 .menu-toggle {
-  display: none;
-  font-size: 1.5rem;
-  color: #ffffff;
-  cursor: pointer;
+    display: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 .nav-links {
-  display: flex;
-  align-items: center;
-  gap: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .button-nav button {
-<<<<<<< Updated upstream
-  padding: 8px 20px;
-  border: 1px solid var(--last-color);
-  border-radius: 10px;
-  color: var(--green);
-  background-color: white;
-=======
+    padding: 8px 20px;
+    border: 1px solid var(--last-color);
+    border-radius: 10px;
+    color: var(--green);
+    background-color: white;
     padding: 8px 20px;
     border: 1px solid var(--last-color);
     border-radius: 10px;
     color: white;
     background-color: transparent;
->>>>>>> Stashed changes
 }
 
 .button-nav button:hover {
-  background-color: var(--yellow);
-  color: white;
+    background-color: var(--yellow);
+    color: white;
 }
 
 /* home */
 
 #home {
-  height: 745px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
+    height: 745px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .container-home {
-  width: 100%;
-  height: 100%;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .bgc-img {
-  width: 100%;
-  height: 100%;
-  opacity: 0.95;
-  position: relative;
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    position: relative;
 }
 
 .img-logo {
-  position: absolute;
-  top: 10%;
-  width: 750px;
-  height: 750px;
-  left: 25%;
-  opacity: .3;
+    position: absolute;
+    top: 10%;
+    width: 750px;
+    height: 750px;
+    left: 25%;
+    opacity: .3;
 }
 
 .btn-group-home {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 8%;
-  top: 92%;
-  left: 40%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8%;
+    top: 92%;
+    left: 40%;
 }
 
 .btn-home {
-  padding: 7px 12px;
-  border-radius: 10px;
-  width: 150px;
-  background-color: var(--green);
-  color: white;
+    padding: 7px 12px;
+    border-radius: 10px;
+    width: 150px;
+    background-color: var(--green);
+    color: white;
 }
 
 .btn-home:hover,
 .btn-home:active {
-  background-color: var(--primary-color) !important;
-  color: white !important;
-  border: 1px solid var(--primary-color) !important;
+    background-color: var(--primary-color) !important;
+    color: white !important;
+    border: 1px solid var(--primary-color) !important;
 }
 
 /* video */
 .video {
-<<<<<<< Updated upstream
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 50px 20px;
-=======
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
     position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 50px 20px;
->>>>>>> Stashed changes
 }
+
 .video-container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
+
 video {
     width: 70%;
     height: auto;
     display: block;
 }
+
 .overlay {
     position: absolute;
     top: 50%;
@@ -216,6 +213,7 @@ video {
     color: white;
     font-family: Arial, sans-serif;
 }
+
 .play-button {
     background: rgba(0, 0, 0, 0.7);
     border: none;
@@ -226,6 +224,47 @@ video {
     cursor: pointer;
     color: white;
 }
+
+.play-text {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #222223;
+    font-weight: bold;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+video {
+    width: 70%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.play-button {
+    background: rgba(0, 0, 0, 0.7);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+}
+
 .play-text {
     margin-top: 10px;
     font-size: 20px;
@@ -235,45 +274,46 @@ video {
 
 /* video osti */
 .bottom-video {
-  display: flex;
-  padding: 50px 100px;
-  justify-content: space-around;
-  flex-wrap: wrap;
+    display: flex;
+    padding: 50px 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .bottom-video i {
-  font-size: 40px;
+    font-size: 40px;
 }
 
 .bottom-video h1 {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .bottom-video .d-flex {
-  width: 400px;
-  padding: 30px;
-  border: 1px solid white;
-  gap: 20px;
+    width: 400px;
+    padding: 30px;
+    border: 1px solid white;
+    gap: 20px;
 }
 
 .left-text h1 {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .container-about {
-  margin: 30px 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 30px;
+    margin: 30px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
 }
+
 .left-about {
-  position: relative;
+    position: relative;
 }
 
 .left-about h1 {
-  font-size: 55px;
-  font-weight: bold;
-  position: absolute;
-  top: 20px;
+    font-size: 55px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
 }
