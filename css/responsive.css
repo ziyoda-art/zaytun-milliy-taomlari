@@ -122,6 +122,12 @@
     .customers{
       padding: 0 20px;
     }
+    .item-2{
+      display: none;
+    }
+    .menu-button button{
+      font-size: 13px;
+    }
   }
   
 
@@ -138,7 +144,11 @@
 @media (max-width: 425px) {}
 
 /* ≥400px */
-@media (max-width: 400px) {}
+@media (max-width: 400px) {
+  .instagram-gallery img{
+    width: 130px;
+  }
+}
 
 /* ≥380px */
 @media (max-width: 380px) {
@@ -167,7 +177,8 @@
     }
 }
 /* ≥350px */
-@media (max-width: 350px) {}
+@media (max-width: 350px) {
+}
 
 /* ≥320px */
 @media (max-width: 320px) {}
