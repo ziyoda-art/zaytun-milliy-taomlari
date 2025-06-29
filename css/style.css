@@ -81,11 +81,11 @@ header i {
 }
 
 .nav-links a:hover {
-  color: var(--last-color) !important;
+  color: var(--fill-color) !important;
 }
 
 .nav-links a.active {
-  color: var(--last-color) !important;
+  color: var(--fill-color) !important;
 }
 
 .menu-toggle {
@@ -179,6 +179,9 @@ header i {
   justify-content: center;
   align-items: center;
   padding: 50px 20px;
+}
+.video video{
+    width: 70%;
 }
 
 /* video osti */
@@ -332,6 +335,74 @@ header i {
 
 .customer-info{
     margin-left: 10px;
+}
+
+/* onlayn joy bron qilish */
+.book-section {
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+form{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+.book-section h1 {
+    font-size: 2.5em;
+    color: var(--last-color);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.book-section p {
+    color: #666;
+    margin-bottom: 30px;
+}
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+.form-group label {
+    display: block;
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.book-btn {
+    background-color: var(--fill-color);
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+.book-btn:hover {
+    background-color:var(--gold);
+}
+.background-map {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://via.placeholder.com/1500x1000?text=Map+Background') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.1;
 }
 
 /* footer */
