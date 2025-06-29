@@ -143,7 +143,7 @@ header i {
   width: 750px;
   height: 750px;
   left: 25%;
-  opacity: .3;
+  opacity: 0.3;
 }
 
 .btn-group-home {
@@ -213,7 +213,7 @@ header i {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 30px;
+  gap: 12%;
 }
 
 .right-about {
@@ -222,19 +222,61 @@ header i {
 }
 
 .right-about .more {
-    padding: 7px 12px;
-    border-radius: 15px;
-    color: black;
-    background-color: white;
-    border: 2px solid black;
+  padding: 7px 12px;
+  border-radius: 15px;
+  color: green;
+  background-color: white;
+  border: 2px solid var(--green);
 }
 
 .right-about p {
-    font-weight: normal !important;
+  font-weight: normal !important;
 }
 
 .right-about .more:hover {
+  color: white;
+  background-color: var(--green);
+  border: 2px solid var(--green);
+}
+
+.left-about-card {
+  padding: 45px 50px;
+  width: 350px;
+  height: 280px;
+  border-radius: 20px;
+  background-color: grey;
+  z-index: 2;
+  position: absolute;
+  margin-top: -15%;
+  margin-left: 17%;
+}
+
+.left-about-card h2 {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.left-about-card .p-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: start;
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.p-group a{
+    text-decoration: none;
     color: white;
-    background-color: var(--green);
-    border: 2px solid var(--green);
+}
+
+.left-about-img {
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+    z-index: 0;
+    position: relative;
 }
