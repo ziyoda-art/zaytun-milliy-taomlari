@@ -63,10 +63,12 @@ header i {
 .logo img {
     color: #ffffff;
     /* width: 170px; */
-    height: 60px;
+    height: 70px;
     font-weight: bold;
     /* margin-left: 35px; */
     cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: -7px;
 }
 
 .nav-links a {
@@ -194,4 +196,11 @@ header i {
 
 .left-text h1 {
     font-weight: bold;
+}
+
+.container-about {
+    margin: 30px 70px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
