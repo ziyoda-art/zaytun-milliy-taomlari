@@ -119,6 +119,9 @@
     .social-icons {
       justify-content: center;
     }
+    .customers{
+      padding: 0 20px;
+    }
   }
   
 
@@ -145,10 +148,22 @@
         display: block;
         font-size: 10px;
     }
+    #home{
+      height: 600px;
+    }
 
     /* Navbar */
     .nav-links {
         display: none;
+    }
+    .bottom-video .d-flex{
+      width: 330px;
+    }
+    .container-about {
+      margin: 50px 20px;
+    }
+    .instagram-gallery img{
+      width: 110px;
     }
 }
 /* ≥350px */
