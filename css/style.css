@@ -462,7 +462,14 @@ form{
   transition: all 0.3s ease;
   animation: pulse 2s infinite;
 }
+.menu-item {
+  display: block;
+}
 
+.menu-item.hidden {
+  display: none;
+
+}
 @keyframes pulse {
   0% { transform: scale(1); box-shadow: 0 0 0 0 white }
   50% { transform: scale(1.02); box-shadow: 0 0 20px 5px white; }
